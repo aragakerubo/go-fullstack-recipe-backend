@@ -1,13 +1,13 @@
 # Project code for Open Classrooms course
 
-Clone this repo and add Gulp tasks as set out in the course activity.
+Clone this repo and follow the instructions as set out below to get started.
 
 ## Getting started
 
 - Clone the repo
 
 ```bash
-git clone https://github.com/aragakerubo/5493201-js-for-the-web-gulp.git
+git clone https://github.com/aragakerubo/go-fullstack-recipe-backend.git
 ```
 
 - Install the package
