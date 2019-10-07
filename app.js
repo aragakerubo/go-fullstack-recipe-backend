@@ -7,7 +7,8 @@ const express = require("express"),
 dotenv.config();
 
 const app = express();
-
+// MONGODB_URI=mongodb://new-user_01:noIOGRtJOjUaxK7J@adopt-a-tree-chatbot-shard-00-00-dxpxl.mongodb.net:27017,adopt-a-tree-chatbot-shard-00-01-dxpxl.mongodb.net:27017,adopt-a-tree-chatbot-shard-00-02-dxpxl.mongodb.net:27017/test?ssl=true&replicaSet=adopt-a-tree-chatbot-shard-0&authSource=admin&retryWrites=true&w=majority
+// To be deleted soon ^^^
 mongoose
   .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
