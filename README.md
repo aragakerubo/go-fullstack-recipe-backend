@@ -16,7 +16,7 @@ git clone https://github.com/aragakerubo/go-fullstack-recipe-backend.git
 npm install
 ```
 
-- Create a `.env` in the root directory file and fill in the with the appropriate values and save the changes
+- Create a `.env` file in the root directory and fill in the with the appropriate values and save the changes
 
 ```bash
 MONGODB_URI=mongodb://<USERNAME>:<PASSWORD>@<CLUSTER>-shard-00-00-dxpxl.mongodb.net:27017,<CLUSTER>-shard-00-01-dxpxl.mongodb.net:27017,<CLUSTER>-shard-00-02-dxpxl.mongodb.net:27017/test?ssl=true&replicaSet=<CLUSTER>-shard-0&authSource=admin&retryWrites=true&w=majority
